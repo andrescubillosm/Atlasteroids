@@ -147,12 +147,12 @@ st.sidebar.markdown(" :copyright: 2022 &copy;")
 #url_5 = 'https://eficaciadata.s3.amazonaws.com/ago_pdv_pro.csv' # Data of products out stock for store and type of product
 #url_6 = 'https://eficaciadata.s3.amazonaws.com/ago.csv' # DATA DE AGOTADOS
 
-url_1 = 'csv/geodata.csv' # Data of geographic points of the stores
-url_2 = 'csv/pro_pre_pdv.csv' # Data of products-Prices-stores
-url_3 = 'csv/pre.csv'# Data of prices
-url_4 = 'csv/pro.csv' # DATA DE PRODUCTOS
-url_5 = 'csv/ago_pdv_pro.csv' # Data of products out stock for store and type of product
-url_6 = 'csv/ago.csv' # DATA DE AGOTADOS
+url_1 = 'Atlasteroids\csv\geodata.csv' # Data of geographic points of the stores
+url_2 = 'Atlasteroids\csv\pro_pre_pdv.csv' # Data of products-Prices-stores
+url_3 = 'Atlasteroids\csv\pre.csv'# Data of prices
+url_4 = 'Atlasteroids\csv\pro.csv' # DATA DE PRODUCTOS
+url_5 = 'Atlasteroids\csv\ago_pdv_pro.csv' # Data of products out stock for store and type of product
+url_6 = 'Atlasteroids\csv\ago.csv' # DATA DE AGOTADOS
 #uses this instruccion it the data change @st.cache(persist=True)( If you have a different use case where the data does not change so very often, you can simply use this)
 
 
