@@ -33,9 +33,9 @@ ga_model= st.container()
 
 #Adding datasets
 #url_5 = 'https://eficaciadata.s3.amazonaws.com/ago_pdv_pro.csv' # Data of products out stock for store and type of product
-url_5 = 'Atlasteroids/csv/ago_pdv_pro.csv' # Data of products out stock for store and type of product
+url_5 = 'streamlit/csv/ago_pdv_pro.csv' # Data of products out stock for store and type of product
 #loading data
-data_5 = pd.read_csv(url_5, sep=',')
+data_5 = pd.read_csv(url_5)
 
 
 #formula used
